@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": "1701",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "email": "admin@gmail.com",
+      "status": "Active"
+    },
+    {
+      "id": "1705",
+      "username": "manager",
+      "password": "manager123",
+      "role": "Manager",
+      "email": "manager@gmail.com",
+      "status": "Inactive"
+    },
+    {
+      "id": "1703",
+      "username": "viewer",
+      "password": "viewer123",
+      "role": "Viewer",
+      "email": "viewer@gmail.com",
+      "status": "Active",
+      "undefined": "viewer@gmail.comd"
+    }
+  ],
+  "roles": [
+    {
+      "id": "24931dc3-19dd-41e8-8968-12992f936936",
+      "name": "Admin",
+      "description": "Has full access to all features",
+      "permissions": [
+        "Read",
+        "Edit",
+        "Delete",
+        "Create"
+      ]
+    },
+    {
+      "id": "af02f1bc-afb7-4262-93ee-050ea4799274",
+      "name": "Manager",
+      "description": "Can manage user content and assign roles",
+      "permissions": [
+        "Read",
+        "Edit"
+      ]
+    },
+    {
+      "id": "2c458c43-4f0f-4f68-bd05-5165ca8e92ae",
+      "name": "Viewer",
+      "description": "Can only view content",
+      "permissions": [
+        "Read"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "id": "faa1",
+      "name": "Read",
+      "description": "Allows reading content"
+    },
+    {
+      "id": "bfbd",
+      "name": "Edit",
+      "description": "Allows editing content"
+    },
+    {
+      "id": "1623",
+      "name": "Delete",
+      "description": "Allows deleting content"
+    },
+    {
+      "id": "d4fc",
+      "name": "Create",
+      "description": "Allows creating content"
+    }
+  ]
+}
